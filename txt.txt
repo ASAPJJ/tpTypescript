@@ -1,0 +1,24 @@
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+  <form id="Calculadora">
+    <input type="number" value="" name="numero1"></input>
+    <input type="number" value="" name="numero2"></input>
+    <button type="submit">ASDASD</button>
+    <select id="Operaciones" name="Operaciones">
+      <option>Suma</option>
+      <option>Resta</option>
+      <option>Multiplicacion</option>
+      <option>División</option>
+    </select>
+  </div>
+
+
+
+document.querySelector<HTMLFormElement>('#Calculadora')?.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const formData = new FormData(e.currentTarget);
+  console.log(formData)
+  const numero1 = formData.get('numero1');
+  const numero2 = formData.get('numero2');
+  const operacion = formData.get('Operaciones');
+  console.log(numero1, numero2, operacion)
+})
