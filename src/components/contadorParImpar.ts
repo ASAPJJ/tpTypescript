@@ -15,6 +15,7 @@ document.querySelector<HTMLDivElement>("#tp2")!.innerHTML = `
         </form>
         <h3 id="par"></h3>
         <h3 id="impar"></h3>
+        <div id="tp3"></div>
     </div>
 `;
 
