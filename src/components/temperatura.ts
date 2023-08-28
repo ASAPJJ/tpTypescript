@@ -13,6 +13,7 @@ document.querySelector<HTMLDivElement>('#tp5')!.innerHTML=`
     </form>
     <div id="result"></div>
 </div>
+<div id='tp6'></div>
 `
 document.querySelector<HTMLFormElement>('#temp')?.addEventListener('submit',(e)=>{
     e.preventDefault();
