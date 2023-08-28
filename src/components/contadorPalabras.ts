@@ -3,7 +3,7 @@ import { mostrarResultado } from "./calculadora";
 document.querySelector<HTMLDivElement>('#tp6')!.innerHTML = `
 <div>
     <form id='wordCounter'>
-        <h1>Contador de Palabras</h1>
+        <p>Contador de Palabras</p>
         <label for="inputSentence">Ingrese una oración:</label>
         <input type='text' name="inputSentence" placeholder='Ingrese la oración'></input>
         <button type="submit">Contar Palabras</button>

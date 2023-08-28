@@ -6,12 +6,11 @@ import { mostrarResultado } from "./calculadora";
 // no null - no undefined aserción
 document.querySelector<HTMLDivElement>("#tp2")!.innerHTML = `
     <div>
-        <h1>Salsa y kachu</h1>
-        <h2>Elija el rango de números</h2>
+        <p>Elija el rango de números</p>
         <form id="parImpar">
             <input type="number" name="min"></input>
             <input type="number" name="max"></input>
-            <button type="submit">y no fuimo</button>
+            <button type="submit">Check</button>
         </form>
         <h3 id="par"></h3>
         <h3 id="impar"></h3>

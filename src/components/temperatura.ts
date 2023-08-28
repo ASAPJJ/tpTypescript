@@ -2,7 +2,7 @@ import { mostrarResultado } from "./calculadora";
 document.querySelector<HTMLDivElement>('#tp5')!.innerHTML=`
 <div>
     <form id='temp'>
-    <h1>Convertidor de Temperatura</h1>
+    <p>Convertidor de Temperatura</p>
     <input type='number' name="a" placeholder='Ingrese la temperatura'></input>
     <p>Ingrese la escala a transformar</p>
         <select id='escala' name='escala'>

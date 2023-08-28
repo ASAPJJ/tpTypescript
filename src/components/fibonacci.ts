@@ -1,7 +1,6 @@
 document.querySelector<HTMLDivElement>('#tp4')!.innerHTML=`
 <div>
     <form id="fibonacci">
-        <h1>PAREN LOS MEMES</h1>
         <div id="secuencia">
 
         </div>

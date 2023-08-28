@@ -1,6 +1,5 @@
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
-    <h1>UN VIDEO MÁS MI GENTE</h1>
     <p>Mucho calculo</p>
     <form id="Calculadora">
       <input type="number" name="a"></input>
@@ -11,7 +10,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           <option value="4">/</option>
         </select>
         <input type="number" name="b"></input>
-      <button type="Submit">Un divorcio más mi gente</button>
+      <button type="Submit">Calcular</button>
     </form>
     <p id="resultado"></p>
     <div id="tp2"></div>

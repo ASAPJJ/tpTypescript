@@ -1,10 +1,9 @@
 document.querySelector<HTMLDivElement>("#tp3")!.innerHTML = `
 <div>
-    <h1>SALSA Y PICANTE</h1>
     <p>Tabla de multiplicar</p>
     <form id="tablaMultiplicar">
         <input type="number" name="multi" placeholder="Ingrese el multiplo">
-        <button type="submit">Multiplicar, y no fuimo</button>
+        <button type="submit">Multiplicar</button>
     </form>
     <div id='tabla'></tabla>
     <div id= 'tp4'></div>
